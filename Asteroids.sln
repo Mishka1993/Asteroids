@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Asteroids.Enemy", "Unity.Asteroids.Enemy.csproj", "{7FEE85B6-7D03-C404-1982-B5BEE8D8E346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Asteroids.Player", "Unity.Asteroids.Player.csproj", "{FB720C4D-E365-9CB6-C544-9B11E97F6580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Asteroids.Gun", "Unity.Asteroids.Gun.csproj", "{546E7678-2A1E-113B-5501-C53C149E827C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Asteroids.Editor", "Unity.Asteroids.Editor.csproj", "{DD001385-D36F-169C-D86F-63C2F632929D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEE85B6-7D03-C404-1982-B5BEE8D8E346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEE85B6-7D03-C404-1982-B5BEE8D8E346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEE85B6-7D03-C404-1982-B5BEE8D8E346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEE85B6-7D03-C404-1982-B5BEE8D8E346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB720C4D-E365-9CB6-C544-9B11E97F6580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB720C4D-E365-9CB6-C544-9B11E97F6580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB720C4D-E365-9CB6-C544-9B11E97F6580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB720C4D-E365-9CB6-C544-9B11E97F6580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546E7678-2A1E-113B-5501-C53C149E827C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546E7678-2A1E-113B-5501-C53C149E827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546E7678-2A1E-113B-5501-C53C149E827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546E7678-2A1E-113B-5501-C53C149E827C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD001385-D36F-169C-D86F-63C2F632929D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD001385-D36F-169C-D86F-63C2F632929D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD001385-D36F-169C-D86F-63C2F632929D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD001385-D36F-169C-D86F-63C2F632929D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
