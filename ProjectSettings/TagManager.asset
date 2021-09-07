@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Comet
+  - Rum
+  - UFO
+  - Bullet
+  - Laser
   layers:
   - Default
   - TransparentFX

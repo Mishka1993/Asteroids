@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637662538181730468
+      ticks: 637665497229587704
     m_Hash: 1727733043
   m_LockFileStatus:
     m_FilePath: D:/MyGames/Asteroids/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637662538181880452
+      ticks: 637665497229647706
     m_Hash: 891093031
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3309,7 +3309,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637509898070000000
       documentationUrl: 
       hasRepository: 1
       repository:

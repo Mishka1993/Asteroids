@@ -11,7 +11,7 @@ public class Gun : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Laser.activeSelf == false)
         {
             Instantiate(bullet, transform.position, transform.rotation, transform.parent);
         }
