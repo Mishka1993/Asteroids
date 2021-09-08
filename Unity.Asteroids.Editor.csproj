@@ -53,11 +53,15 @@
     <UnityVersion>2020.3.15f2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\AssemblyInfo.cs" />
-    <Compile Include="Assets\Editor\InfoBoard.cs" />
+    <Compile Include="Assets\Editor\Scripts\InfoBoard.cs" />
+    <Compile Include="Assets\Editor\Scripts\Creaty.cs" />
+    <Compile Include="Assets\Editor\Scripts\Move.cs" />
+    <Compile Include="Assets\Editor\Scripts\Destruction.cs" />
+    <Compile Include="Assets\Editor\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Unity.Asteroids.Editor.asmdef" />
@@ -677,18 +681,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Asteroids.Enemy.csproj">
-      <Project>{7FEE85B6-7D03-C404-1982-B5BEE8D8E346}</Project>
-      <Name>Unity.Asteroids.Enemy</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Asteroids.Gun.csproj">
-      <Project>{546E7678-2A1E-113B-5501-C53C149E827C}</Project>
-      <Name>Unity.Asteroids.Gun</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Asteroids.Player.csproj">
-      <Project>{FB720C4D-E365-9CB6-C544-9B11E97F6580}</Project>
-      <Name>Unity.Asteroids.Player</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

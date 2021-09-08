@@ -1,11 +1,7 @@
 {
     "name": "Unity.Asteroids.Editor",
     "rootNamespace": "",
-    "references": [
-        "GUID:2e46c864c69983542bb97c8b07a43eb9",
-        "GUID:ea191cdc671b76142861555d5c52b661",
-        "GUID:9ffd8c8ebc916fa4ba816efd3a22c1c5"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
